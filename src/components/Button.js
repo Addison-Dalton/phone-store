@@ -17,7 +17,7 @@ export const ButtonContainer = styled.button `
         color: var(--mainBlue);
     }
 
-    $focus {
+    &:focus {
         outline: none;
     }
 `;
